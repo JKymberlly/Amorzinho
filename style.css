@@ -7,6 +7,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100%;
+    width: 100%;
+}
 
 html {
     display: flex;
@@ -26,8 +30,8 @@ html {
     color: white;
     font-family: "Parkinsans", sans-serif;
     margin: 20px 0; /* Adiciona espaçamento */
-    left: 420px;
-    bottom: 300px;
+    left: 1200px;
+    bottom: 200px;
 }
 
 .davi {
@@ -35,6 +39,7 @@ html {
     font-family: "Parkinsans", sans-serif;
     text-align: center;
     margin: 20px 0;
+    top: 40px;
 }
 
 .jett {
@@ -42,7 +47,8 @@ html {
     max-height: 400px; /* Limita a altura máxima */
     max-width: 100%; /* Garante que a largura se ajuste ao contêiner */
     border-radius: 10%;
-    top: 40px;
+    top: 150px;
+    left: 750px;
 }
 
 .mundo {
@@ -62,8 +68,8 @@ html {
     border-width: 8px;
     border-color: #06c000;
     animation: animate 15s linear infinite;
-    right: 380px;
-    top: 60px;
+    top: 160px;
+    left: 650px;
 }
 
 @keyframes animate {
