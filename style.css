@@ -2,6 +2,7 @@
 *{
     background-color: #A9D1E8;
     position: relative;
+    overflow: hidden;
 }
 html{
     display: flex;
