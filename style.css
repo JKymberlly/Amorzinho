@@ -1,54 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
-*{
+
+* {
     background-color: #A9D1E8;
     position: relative;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-html{
+
+html {
     display: flex;
     justify-content: center;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
     height: 100vh;
+    overflow: hidden; /* Evita que o conteúdo vaze */
+    flex-direction: column; /* Organiza o conteúdo verticalmente */
 }
-.amor{
+
+.amor {
     color: #ff7dad;
+    font-family: "Parkinsans", sans-serif;
 }
-.texto{
+
+.texto {
     color: white;
     font-family: "Parkinsans", sans-serif;
-    left: 450px;
-    bottom: 150px;
+    margin: 20px 0; /* Adiciona espaçamento */
+    left: 420px;
+    bottom: 300px;
 }
-.davi{
+
+.davi {
     color: white;
     font-family: "Parkinsans", sans-serif;
-    top: 100px;
+    text-align: center;
+    margin: 20px 0;
 }
-.jett{
-    top: 200px;
-    height: 400px;
+
+.jett {
+    height: auto; /* Permite que a imagem se ajuste automaticamente */
+    max-height: 400px; /* Limita a altura máxima */
+    max-width: 100%; /* Garante que a largura se ajuste ao contêiner */
     border-radius: 10%;
-    left: 45px;
+    top: 40px;
 }
-.mundo{
+
+.mundo {
     color: #00b14a;
+    font-family: "Parkinsans", sans-serif;
+    text-align: center;
 }
-.terra{
+
+.terra {
     height: 250px;
-    position: absolute;
-    left: -40px;
-    bottom: 460px;
+    width: 250px; /* Ajusta o tamanho proporcionalmente */
+    position: absolute; /* Alinha melhor o elemento */
+    margin: 20px auto; /* Centraliza dentro do flexbox */
     border-style: dotted;
     border-radius: 50%;
     padding: 10px;
     border-width: 8px;
     border-color: #06c000;
     animation: animate 15s linear infinite;
+    right: 380px;
+    top: 60px;
 }
+
 @keyframes animate {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    100%{
+    100% {
         transform: rotate(360deg);
     }
 }
