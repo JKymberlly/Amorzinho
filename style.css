@@ -6,7 +6,7 @@
 html{
     display: flex;
     justify-content: center;
-    height: 1080px;
+    height: 100vh;
 }
 .amor{
     color: #ff7dad;
@@ -35,7 +35,7 @@ html{
     height: 250px;
     position: absolute;
     left: -40px;
-    bottom: 540px;
+    bottom: 460px;
     border-style: dotted;
     border-radius: 50%;
     padding: 10px;
