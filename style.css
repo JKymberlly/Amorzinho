@@ -80,3 +80,14 @@ html {
         transform: rotate(360deg);
     }
 }
+.coracao{
+    width: 40px;
+}
+button{
+    border:none;
+    left: 1250px;
+    bottom: 200px;
+}
+button:hover{
+    transform: scale(1.2);
+}
